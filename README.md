@@ -83,6 +83,77 @@
 </head>
 
 <body>
+    *{
+    margin:0%;
+    padding:0%;
+}
+.container{
+
+    background-image:url(b2.jpg);
+    width:1500px;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;    
+
+
+    }
+.nav{
+    width: 88%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: right;
+    text-align: right;
+    justify-content: space-between;
+    font-weight: 300px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 50px;
+}
+.nav ul li a{
+    font-size: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+
+
+}
+.left-col{
+    margin-left: 6%;
+
+}
+.left-col h2{
+    font-size: 50px;
+    color:whitesmoke;
+    line-height: 80px;
+    float: left;
+    margin-top: 9%;
+}
+.right-col{
+    margin-left: 80%;
+    margin-right: 6%;
+    margin-top: 80px;
+    display: flex;
+
+}
+.right-col p{
+    font-size: 40px;
+    font-weight: 300;
+    width: 50%;
+    height: 10%;
+    color:whitesmoke;
+    margin-right: 15px;
+    margin-top: 5%;
+}
     <div class="container">
         <div class="nav">
             <ul>
