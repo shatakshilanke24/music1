@@ -154,6 +154,8 @@
     margin-right: 15px;
     margin-top: 5%;
 }
+    </style>
+    </head>
     <div class="container">
         <div class="nav">
             <ul>
